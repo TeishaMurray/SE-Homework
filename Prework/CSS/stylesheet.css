@@ -1,0 +1,72 @@
+			body {
+				background-color: black;
+				color: white;
+				}
+			h1 {
+				font-family: "Lucida Handwriting", Cursive;
+				font-weight: bold;
+				}
+			h2 {
+				font-family: "Brush Script MT", Cursive;
+				font-weight: bold;
+				font-style: italic;
+				}
+			h3 {
+				font-family: "Lucida Handwriting", Cursive;
+				font-style: italic;
+				}
+			img {
+				float: right;
+				margin: 0 0 1em 1em;
+			}
+			table {
+				float: bottom;
+				margin: 0 0 1em 1em;
+			}
+			#aboutme {
+					font-weight: bold;
+					font-style: italic;
+				}
+			form {
+				width: 500px;
+				margin: 20px auto;
+				padding: 50px;
+				border: solid black 10px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;				
+				width: 50%;
+				padding: 20px;
+				background-color: white;
+				font-weight: bold;
+				color: black;
+				border-style: solid;
+			}
+			button:hover {
+				background-color: rgb(102, 0, 128);
+				color: white;
+				font-size: 16px;
+				padding: 10px 10px;
+				border-radius: 12px;
+				box-shadow: 0 24px 24px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+			}
+			.div1 {
+				background-color: rgb(204, 0, 255);
+				overflow: auto;
+				}
+			.div2 {
+				background-color: rgb(163, 0, 204);
+				}
+			.div3 {
+				background-color: rgb(102, 0, 128);
+				}
+			.vertical-container {
+				height: 200px;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-align-items: center;
+					align-items: center;
+				-webkit-justify-content: center;
+					justify-content: center;
+			}
+			
