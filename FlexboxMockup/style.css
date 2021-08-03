@@ -1,0 +1,60 @@
+.containerTop {
+    border: solid blue 3px;
+    height: 35vh;
+    width: 100vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.box {
+    border: solid red 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50%;
+    width: 20%;
+}
+.bottoms {
+    display: flex;
+    flex-direction: row; 
+    align-items: baseline stretch;
+    height: 65vh;
+    width: 100vw; 
+}
+.purplebox {
+
+    border: solid purple 4px;
+    display: flex;
+    height: 70%;
+    width: 35%;
+    align-items: flex-start;
+    }
+.tealbox {
+    border: solid turquoise 4px;
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 35%;
+}
+.bottomLeft {
+    border: solid orange 3px;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottomRight {
+    border: solid green 3px;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bottoms {
+    
+}
